@@ -1,0 +1,23 @@
+platform:ios, ‘8.0’ 
+
+
+
+target "TextDemo” do
+pod 'SDAutoLayout’
+pod 'SDWebImage’
+pod 'AFNetworking’
+pod 'CocoaAsyncSocket’
+pod 'SocketRocket’
+pod 'YYCache'
+pod 'Masonry'
+pod 'Reachability'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'IQKeyboardManager'
+pod 'FMDB'
+pod 'SVProgressHUD'
+pod 'JZNavigationExtension'
+pod 'WebViewJavascriptBridge'
+pod 'MJPhotoBrowser'
+pod 'Reachability'
+end
