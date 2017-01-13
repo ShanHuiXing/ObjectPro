@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BDB01DB8C8E5462B4DAFEECC7A2F9EBAE0A04392",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "145523053CE609614871A8ADF81FEC3920EDCC71" : 9223372036854775807,
+    "BDB01DB8C8E5462B4DAFEECC7A2F9EBAE0A04392" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "779AEAC6-2030-48D8-9191-AF7F032438A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "145523053CE609614871A8ADF81FEC3920EDCC71" : "",
+    "BDB01DB8C8E5462B4DAFEECC7A2F9EBAE0A04392" : "ObjectPro\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextDemo\/TextDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ShanHuiXing\/SwiftPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "145523053CE609614871A8ADF81FEC3920EDCC71"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ShanHuiXing\/ObjectPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDB01DB8C8E5462B4DAFEECC7A2F9EBAE0A04392"
+    }
+  ]
+}

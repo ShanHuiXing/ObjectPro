@@ -7,6 +7,8 @@
 //
 
 #import "NewsListViewController.h"
+#import "NewsModel.h"
+#import "NewsListNetApi.h"
 
 @interface NewsListViewController ()
 
@@ -18,16 +20,50 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"消息";
-    NSDictionary *parms = @{
-                            @"user" : @"100"
-                            };
-    [AFHTTPClient getJSONPath:@"/shf/api/article/list" Params:parms Successed:^(id object) {
+//    NSDictionary *parms = @{
+//                            @"user" : @"100"
+//                            };
+//    [AFHTTPClient getJSONPath:@"/shf/api/article/list" Params:parms Successed:^(id object) {
+//        
+//        NSDictionary *responseObject = object;
+//        NSArray *arr = [NewsModel mj_objectArrayWithKeyValuesArray:responseObject[@"datasource"]];
+//        
+//        [WHC_ModelSqlite inserts:arr];   // 把数据缓冲到数据库
+//        
+//    } Failed:^(id error) {
+//        NSLog(@"------%@--------",error);
+//    }];
+    
+    
+    NewsListNetApi *api = [[NewsListNetApi alloc]initWithUserId:@"100"];
+    
+    [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         
+         NSArray *arr = [NewsModel mj_objectArrayWithKeyValuesArray:[api getContent]];
         
+         [WHC_ModelSqlite inserts:arr];   // 把数据缓冲到数据库
         
-    } Failed:^(id error) {
-        NSLog(@"------%@--------",error);
+    } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
+        
     }];
+    
+    
+    
+    
+    
+}
+// 从本地数据库中获取保存的数据
+- (IBAction)getDataFromSQL:(UIButton *)sender
+{
+    NSArray *data = [WHC_ModelSqlite query:[NewsModel class]];
+    
+    NSLog(@"------%ld----%@-",data.count,[WHC_ModelSqlite localPathWithModel:[NewsModel class]]);
+    if (data.count>0)
+    {
+        [WHC_ModelSqlite removeAllModel];
+    }
+ 
+    
 }
 
 - (void)didReceiveMemoryWarning {

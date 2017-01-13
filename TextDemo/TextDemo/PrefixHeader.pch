@@ -15,7 +15,9 @@
 #import "AFHTTPClient.h"
 #import "AccountManager.h"
 
+#import "WHC_ModelSqlite.h"
 #import "SRWebSocket.h"
+
 
 #import "AFNetworking.h"
 #import "MJRefresh.h"

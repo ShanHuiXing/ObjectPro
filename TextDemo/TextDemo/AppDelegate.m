@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "GuideViewController.h"
 #import "ZMainTabViewController.h"
+#import "AppConstant.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [AppConstant sharedInstance];
     
     //设置根视图
     [self setRootViewController];

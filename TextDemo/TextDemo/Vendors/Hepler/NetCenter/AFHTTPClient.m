@@ -114,11 +114,9 @@
     
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     
-    
-    
     [SVProgressHUD show];
-    
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack ];
+    [SVProgressHUD setBackgroundColor:[UIColor blackColor]];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeNone];
     
 }
 
@@ -139,7 +137,7 @@
     [SVProgressHUD showWithStatus:errorString];
     
     
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack ];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeNone];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         

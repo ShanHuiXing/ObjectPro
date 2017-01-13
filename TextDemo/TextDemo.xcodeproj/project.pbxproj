@@ -89,6 +89,13 @@
 		11FEACFF1DDADA9500232956 /* MyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FEACFA1DDADA9500232956 /* MyCenterViewController.m */; };
 		11FEAD001DDADA9500232956 /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FEACFB1DDADA9500232956 /* MyCenterViewController.xib */; };
 		128D3685981C40A21E1343D3 /* libPods-TextDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B90F2ABCA2A5CC96B96C97D /* libPods-TextDemo.a */; };
+		92CC1E0F1E28702900091413 /* WHC_ModelSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E0E1E28702900091413 /* WHC_ModelSqlite.m */; };
+		92CC1E111E28705000091413 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CC1E101E28705000091413 /* libsqlite3.0.tbd */; };
+		92CC1E141E28B0BC00091413 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E131E28B0BC00091413 /* NewsModel.m */; };
+		92CC1E181E28B72200091413 /* AppBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E171E28B72200091413 /* AppBaseRequest.m */; };
+		92CC1E1C1E28BB0900091413 /* NewsListNetApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E1B1E28BB0900091413 /* NewsListNetApi.m */; };
+		92CC1E221E28BF4B00091413 /* AppUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E211E28BF4B00091413 /* AppUrlArgumentsFilter.m */; };
+		92CC1E251E28C9BC00091413 /* AppConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC1E241E28C9BC00091413 /* AppConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +246,19 @@
 		11FEAD051DDAE24300232956 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4B90F2ABCA2A5CC96B96C97D /* libPods-TextDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85314F9FFF660E0AD3E6DBE7 /* Pods-TextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92CC1E0D1E28702900091413 /* WHC_ModelSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_ModelSqlite.h; sourceTree = "<group>"; };
+		92CC1E0E1E28702900091413 /* WHC_ModelSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ModelSqlite.m; sourceTree = "<group>"; };
+		92CC1E101E28705000091413 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		92CC1E121E28B0BC00091413 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		92CC1E131E28B0BC00091413 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		92CC1E161E28B72200091413 /* AppBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseRequest.h; sourceTree = "<group>"; };
+		92CC1E171E28B72200091413 /* AppBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseRequest.m; sourceTree = "<group>"; };
+		92CC1E1A1E28BB0900091413 /* NewsListNetApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListNetApi.h; sourceTree = "<group>"; };
+		92CC1E1B1E28BB0900091413 /* NewsListNetApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListNetApi.m; sourceTree = "<group>"; };
+		92CC1E201E28BF4B00091413 /* AppUrlArgumentsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUrlArgumentsFilter.h; sourceTree = "<group>"; };
+		92CC1E211E28BF4B00091413 /* AppUrlArgumentsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUrlArgumentsFilter.m; sourceTree = "<group>"; };
+		92CC1E231E28C9BC00091413 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		92CC1E241E28C9BC00091413 /* AppConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CC1E111E28705000091413 /* libsqlite3.0.tbd in Frameworks */,
 				110BE84F1DE6BADC00C030E6 /* CFNetwork.framework in Frameworks */,
 				11BDAF881DDC2B48003013EA /* AVKit.framework in Frameworks */,
 				11BDAF861DDC2B3D003013EA /* AVFoundation.framework in Frameworks */,
@@ -298,6 +319,8 @@
 				113654B81DD94B250066E40B /* AppDelegate.h */,
 				113654B91DD94B250066E40B /* AppDelegate.m */,
 				116A00CD1DD9A7EF00AD7EF6 /* AppMacro.h */,
+				92CC1E231E28C9BC00091413 /* AppConstant.h */,
+				92CC1E241E28C9BC00091413 /* AppConstant.m */,
 				113654BE1DD94B250066E40B /* Main.storyboard */,
 				116A00C51DD9A7B400AD7EF6 /* AccountManager */,
 				116A00C61DD9A7B400AD7EF6 /* Guide */,
@@ -428,6 +451,7 @@
 		116A00C91DD9A7B400AD7EF6 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				92CC1E0C1E28702900091413 /* WHC_ModelSqliteKit */,
 				116A01141DD9BBB400AD7EF6 /* RSA */,
 				116A00CA1DD9A7B400AD7EF6 /* Base */,
 				116A00CB1DD9A7B400AD7EF6 /* Category */,
@@ -471,9 +495,11 @@
 		116A00CC1DD9A7B400AD7EF6 /* Hepler */ = {
 			isa = PBXGroup;
 			children = (
+				92CC1E151E28B53100091413 /* HttpsRequest */,
 				1169DBC91DDAA6B40088C292 /* NetCenter */,
 				113FABA11DDAA1FA008E6C66 /* DownLoad */,
 				113A299F1DDAF7D600FE2D4D /* UpLoad */,
+				92CC1E0B1E286F3C00091413 /* Save */,
 			);
 			path = Hepler;
 			sourceTree = "<group>";
@@ -653,6 +679,7 @@
 			isa = PBXGroup;
 			children = (
 				11FEACE61DDADA0D00232956 /* Controller */,
+				92CC1E191E28BAEA00091413 /* NetApi */,
 				11FEACEA1DDADA0D00232956 /* Model */,
 				11FEACEB1DDADA0D00232956 /* SubViews */,
 				11FEACEC1DDADA0D00232956 /* View */,
@@ -715,6 +742,8 @@
 		11FEACEA1DDADA0D00232956 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92CC1E121E28B0BC00091413 /* NewsModel.h */,
+				92CC1E131E28B0BC00091413 /* NewsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -835,9 +864,46 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		92CC1E0B1E286F3C00091413 /* Save */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		92CC1E0C1E28702900091413 /* WHC_ModelSqliteKit */ = {
+			isa = PBXGroup;
+			children = (
+				92CC1E0D1E28702900091413 /* WHC_ModelSqlite.h */,
+				92CC1E0E1E28702900091413 /* WHC_ModelSqlite.m */,
+			);
+			path = WHC_ModelSqliteKit;
+			sourceTree = "<group>";
+		};
+		92CC1E151E28B53100091413 /* HttpsRequest */ = {
+			isa = PBXGroup;
+			children = (
+				92CC1E201E28BF4B00091413 /* AppUrlArgumentsFilter.h */,
+				92CC1E211E28BF4B00091413 /* AppUrlArgumentsFilter.m */,
+				92CC1E161E28B72200091413 /* AppBaseRequest.h */,
+				92CC1E171E28B72200091413 /* AppBaseRequest.m */,
+			);
+			path = HttpsRequest;
+			sourceTree = "<group>";
+		};
+		92CC1E191E28BAEA00091413 /* NetApi */ = {
+			isa = PBXGroup;
+			children = (
+				92CC1E1A1E28BB0900091413 /* NewsListNetApi.h */,
+				92CC1E1B1E28BB0900091413 /* NewsListNetApi.m */,
+			);
+			path = NetApi;
+			sourceTree = "<group>";
+		};
 		D9EB0FF67FD5F79274FE259A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92CC1E101E28705000091413 /* libsqlite3.0.tbd */,
 				110BE84E1DE6BADC00C030E6 /* CFNetwork.framework */,
 				11BDAF871DDC2B48003013EA /* AVKit.framework */,
 				11BDAF851DDC2B3D003013EA /* AVFoundation.framework */,
@@ -1068,6 +1134,8 @@
 				116A01411DD9C04400AD7EF6 /* AppBaseViewController.m in Sources */,
 				116A01541DD9C04400AD7EF6 /* ZBaseTabBarBtn.m in Sources */,
 				115B93CE1DED50FC00C27AE7 /* CLPlayerView.m in Sources */,
+				92CC1E181E28B72200091413 /* AppBaseRequest.m in Sources */,
+				92CC1E1C1E28BB0900091413 /* NewsListNetApi.m in Sources */,
 				116A00FB1DD9B6B100AD7EF6 /* NSString+MD5Helper.m in Sources */,
 				116A00D31DD9B20700AD7EF6 /* LoginUserModel.m in Sources */,
 				116A00FE1DD9B6B100AD7EF6 /* UIImage+Addition.m in Sources */,
@@ -1075,11 +1143,13 @@
 				116A00FC1DD9B6B100AD7EF6 /* NSString+Regular.m in Sources */,
 				116A01551DD9C04400AD7EF6 /* ZBaseTabBarView.m in Sources */,
 				11FEACF61DDADA7700232956 /* ClinicaListViewController.m in Sources */,
+				92CC1E141E28B0BC00091413 /* NewsModel.m in Sources */,
 				115B93D21DED50FC00C27AE7 /* UIImage+CLTintColor.m in Sources */,
 				115B93D11DED50FC00C27AE7 /* UIImage+CLScaleToSize.m in Sources */,
 				116A011E1DD9BBB400AD7EF6 /* RSAEncryptor.m in Sources */,
 				11FEACED1DDADA0D00232956 /* NewsListViewController.m in Sources */,
 				116A00FA1DD9B6B100AD7EF6 /* NSString+CaculateBounds.m in Sources */,
+				92CC1E0F1E28702900091413 /* WHC_ModelSqlite.m in Sources */,
 				116A01531DD9C04400AD7EF6 /* ZBaseNavigationController.m in Sources */,
 				113FABA41DDAA21C008E6C66 /* ImageDownloadHelper.m in Sources */,
 				115B93D31DED50FC00C27AE7 /* UIView+CLSetRect.m in Sources */,
@@ -1101,7 +1171,9 @@
 				116A011D1DD9BBB400AD7EF6 /* RSA.m in Sources */,
 				113654B71DD94B250066E40B /* main.m in Sources */,
 				116A00D21DD9B20700AD7EF6 /* AccountManager.m in Sources */,
+				92CC1E251E28C9BC00091413 /* AppConstant.m in Sources */,
 				116A01561DD9C04400AD7EF6 /* ZBaseTabBarController.m in Sources */,
+				92CC1E221E28BF4B00091413 /* AppUrlArgumentsFilter.m in Sources */,
 				115B93CF1DED50FC00C27AE7 /* CLSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
